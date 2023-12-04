@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+}
+.main-head{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3.5rem;
+      
+        min-height: 100vh;
+}
+.main{
+    
+    display: flex;
+    flex-direction: column;
+   
+     gap:3.5rem  ;
+    border: 2px solid white;
+    text-align: center;
+    padding: 2rem 4rem;
+    border-radius: 25px;
+}
+
+.p1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+   
+}
+
+.main-head .main .output{
+    font-size: 1.5rem;
+    color: rgb(187, 255, 0);
+}
+input[type="button"]{
+    padding: 0.5rem 2.5rem;
+    background-color: rgb(187, 255, 0);;
+    font-size: 20px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    border: 2px solid white;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.main h2{
+    font-size: 2.5rem;
+    color: rgb(187, 255, 0);
+    text-shadow: 2px 2px 5px rgb(187, 255, 0) ;
+    
+}
+input[type="text"]{
+    padding: 0.5rem 1rem;
+   
+}
+
+.p1 p{
+    font-size: 1.5rem;
+    color: rgb(187, 255, 0);
+}
+input[type="button"]:hover{
+
+    background-color: rgb(189, 142, 142);
+    transform: translateY(-2px);
+    border-color:rgb(187, 255, 0) ;
+}
+
+
+                        
